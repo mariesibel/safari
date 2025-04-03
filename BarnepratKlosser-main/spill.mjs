@@ -121,27 +121,27 @@ function forside() {
 
     bakgrunnsbilde();
 
-    const sebra = new Blocks.Image("bilder/sebra.png", { x: 50, y: 100, width: 200, height: 250 });
+    const sebra = new Blocks.Image("bilder/sebra.png", { x: 160, y: 100, width: 200, height: 250 });
     Actions.Click(sebra, () => {
         visSebra();
     })
 
-    const løve = new Blocks.Image("bilder/løve.png", { x: 300, y: 100, width: 200, height: 250 });
+    const løve = new Blocks.Image("bilder/løve.png", { x: 440, y: 100, width: 200, height: 250 });
     Actions.Click(løve, () => {
         visLøve();
     })
 
-    const pingvin = new Blocks.Image("bilder/pingvin.png", { x: 550, y: 100, width: 200, height: 250 });
+    const pingvin = new Blocks.Image("bilder/pingvin.png", { x: 720, y: 100, width: 200, height: 250 });
     Actions.Click(pingvin, () => {
         visPingvin();
     })
 
-    const sjiraff = new Blocks.Image("bilder/sjiraff.png", { x: 800, y: 100, width: 200, height: 250 });
+    const sjiraff = new Blocks.Image("bilder/sjiraff.png", { x: 300, y: 400, width: 200, height: 250 });
     Actions.Click(sjiraff, () => {
         visSjiraff();
     })
 
-    const slange = new Blocks.Image("bilder/slange.png", { x: 1050, y: 100, width: 200, height: 250 });
+    const slange = new Blocks.Image("bilder/slange.png", { x: 580, y: 400, width: 200, height: 250 });
     Actions.Click(slange, () => {
         visSlange();
     })
@@ -151,14 +151,14 @@ function forside() {
 
 function utfordring1() {
     bakgrunnsbilde();
-    new Blocks.Text("Brøl som en løve!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/løve.png", { x: 0, y: 0, width: 100, height: 100 });
+    new Blocks.Text("Brøl som en løve!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
 
     //bytte ut bilde --> tilbake
     //flytte bildet
     //legge til i alle utfordringer (når den er ferdig)
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -168,10 +168,11 @@ function utfordring1() {
 
 
 function utfordring2() {
-    new Blocks.Text("Snik deg som en løve gjennom gresset, uten å lage lyd!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/løve.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Snik deg som en løve gjennom gresset, uten å lage lyd!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -181,10 +182,11 @@ function utfordring2() {
 
 
 function utfordring3() {
-    new Blocks.Text("Finn tre ting i rommet med lik farge som løvens pels!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/løve.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Finn tre ting i rommet med lik farge som løvens pels!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -194,10 +196,11 @@ function utfordring3() {
 
 
 function utfordring4() {
-    new Blocks.Text("Gå i flokk som løver!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/løve.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Gå i flokk som løver!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -207,10 +210,11 @@ function utfordring4() {
 
 
 function utfordring5() {
-    new Blocks.Text("Klarer du å ta 5 lange steg? Dette er like langt som en løve hopper!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/løve.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Klarer du å ta 5 lange steg? Dette er like langt som en løve hopper!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -220,10 +224,11 @@ function utfordring5() {
 
 
 function utfordring6() {
-    new Blocks.Text("Strekk deg så langt du kan! Blir du like lang som en sjiraff!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Strekk deg så langt du kan! Blir du like lang som en sjiraff!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -233,10 +238,11 @@ function utfordring6() {
 
 
 function utfordring7() {
-    new Blocks.Text("Finn fem ting rundt deg som er høyere enn deg selv!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Finn fem ting rundt deg som er høyere enn deg selv!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -246,10 +252,11 @@ function utfordring7() {
 
 
 function utfordring8() {
-    new Blocks.Text("Finn en venn og stå rygg mot rygg. Hvem er høyest?!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Finn en venn og stå rygg mot rygg. Hvem er høyest?!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -259,10 +266,11 @@ function utfordring8() {
 
 
 function utfordring9() {
-    new Blocks.Text("Klarer du å strekke ut tunga like langt som en sjiraff?", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Klarer du å strekke ut tunga like langt som en sjiraff?", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -272,10 +280,11 @@ function utfordring9() {
 
 
 function utfordring10() {
-    new Blocks.Text("Kryp som en slange over gulvet, uten å bruke hendene!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/slange.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Kryp som en slange over gulvet, uten å bruke hendene!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -285,10 +294,11 @@ function utfordring10() {
 
 
 function utfordring11() {
-    new Blocks.Text("Lag samme lyd som slangen mens du står på et bein!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/slange.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Lag samme lyd som slangen mens du står på et bein!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -298,10 +308,11 @@ function utfordring11() {
 
 
 function utfordring12() {
-    new Blocks.Text("Finn tre ting som rimer på slange!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/slange.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Finn tre ting som rimer på slange!", { style: "overskrift2", x: 440, y: 200, width: 300, height: 200 });
+    const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -311,10 +322,11 @@ function utfordring12() {
 
 
 function utfordring13() {
-    new Blocks.Text("Fullfør setningen: Det var en gang en slange som...", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/slange.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Fullfør setningen: Det var en gang en slange som...", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -324,10 +336,11 @@ function utfordring13() {
 
 
 function utfordring14() {
-    new Blocks.Text("Kan du nevne tre ting en slange kan spise?", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/slange.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Kan du nevne tre ting en slange kan spise?", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -337,10 +350,11 @@ function utfordring14() {
 
 
 function utfordring15() {
-    new Blocks.Text("Galloper som en sebra med armer og bein!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/sebra.png", { x: 0, y: 0, width: 200, height: 250 });
+    bakgrunnsbilde();
+    new Blocks.Text("Galloper som en sebra med armer og bein!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/sebra.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -350,10 +364,11 @@ function utfordring15() {
 
 
 function utfordring16() {
-    new Blocks.Text("Kommer du på noen andre dyr som også er stripete som sebraen?", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/sebra.png", { x: 0, y: 0, width: 200, height: 250 });
+    bakgrunnsbilde();
+    new Blocks.Text("Kommer du på noen andre dyr som også er stripete som sebraen?", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/sebra.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -363,10 +378,11 @@ function utfordring16() {
 
 
 function utfordring17() {
-    new Blocks.Text("Rop sebra når du ser noen i rommet som har svart eller hvit på seg!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/sebra.png", { x: 0, y: 0, width: 200, height: 250 });
+    bakgrunnsbilde();
+    new Blocks.Text("Rop sebra når du ser noen i rommet som har svart eller hvit på seg!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/sebra.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -376,10 +392,11 @@ function utfordring17() {
 
 
 function utfordring18() {
-    new Blocks.Text("Gå som en pingvin rundt i rommet!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/pingvin.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Gå som en pingvin rundt i rommet!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/pingvin.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -389,10 +406,11 @@ function utfordring18() {
 
 
 function utfordring19() {
-    new Blocks.Text("Dans slik du tror en pingvin ville danset!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/pingvin.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Dans slik du tror en pingvin ville danset!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/pingvin.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -402,10 +420,11 @@ function utfordring19() {
 
 
 function utfordring20() {
-    new Blocks.Text("Pingvinen er sulten hopp ned fra benken for å fange fisk!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const img1 = new Blocks.Image("bilder/pingvin.png", { x: 0, y: 0, width: 100, height: 100 });
+    bakgrunnsbilde();
+    new Blocks.Text("Pingvinen er sulten hopp ned fra benken for å fange fisk!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const img1 = new Blocks.Image("bilder/pingvin.png", { x: 477, y: 100, width: 125, height: 150 });
 
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
