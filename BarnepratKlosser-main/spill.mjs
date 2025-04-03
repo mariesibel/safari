@@ -96,8 +96,9 @@ function visSlange() {
 }
 
 function velgEtAnnetDyr() {
-    new Blocks.Text("Gratulerer du har fullført alle utfordringene. Velg et annet dyr!", { style: "overskrift2", x: 200, y: 200, width: 200, height: 200 });
-    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 300, y: 500, width: 100, height: 75 });
+    bakgrunnsbilde();
+    new Blocks.Text("Gratulerer du har fullført alle utfordringene. Velg et annet dyr!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+    const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
     Actions.Click(tilbake, () => {
@@ -153,10 +154,6 @@ function utfordring1() {
     bakgrunnsbilde();
     new Blocks.Text("Brøl som en løve!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
-
-    //bytte ut bilde --> tilbake
-    //flytte bildet
-    //legge til i alle utfordringer (når den er ferdig)
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
