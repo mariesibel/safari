@@ -154,7 +154,9 @@ function utfordring1() {
     bakgrunnsbilde();
     new Blocks.Text("Brøl som en løve!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
-
+    //---------------
+    const lyd = new Blocks.Sound("lyder/FILNAVN.MP3", {loop:false,auto:true});
+    //----------------
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -306,8 +308,8 @@ function utfordring11() {
 
 function utfordring12() {
     bakgrunnsbilde();
-    new Blocks.Text("Finn tre ting som rimer på slange!", { style: "overskrift2", x: 440, y: 200, width: 300, height: 200 });
-    const img1 = new Blocks.Image("bilder/slange.png", { x: 577, y: 100, width: 125, height: 150 });
+    new Blocks.Text("Finn tre ting som rimer på slange!", { style: "overskrift2", x: 440, y: 300, width: 300, height: 200 });
+    const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
