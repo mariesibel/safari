@@ -98,6 +98,9 @@ function visSlange() {
 function velgEtAnnetDyr() {
     bakgrunnsbilde();
     new Blocks.Text("Gratulerer du har fullført alle utfordringene. Velg et annet dyr!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
+
+    const lyd = new Blocks.Sound("lyder/gratulerer.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
