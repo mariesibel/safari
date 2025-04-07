@@ -155,7 +155,7 @@ function utfordring1() {
     new Blocks.Text("Brøl som en løve!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
     //---------------
-    const lyd = new Blocks.Sound("lyder/FILNAVN.MP3", {loop:false,auto:true});
+    const lyd = new Blocks.Sound("lyder/en.m4a", {loop:false,auto:true});
     //----------------
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -171,6 +171,8 @@ function utfordring2() {
     new Blocks.Text("Snik deg som en løve gjennom gresset, uten å lage lyd!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/to.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -184,6 +186,8 @@ function utfordring3() {
     bakgrunnsbilde();
     new Blocks.Text("Finn tre ting i rommet med lik farge som løvens pels!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/tre.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -199,7 +203,10 @@ function utfordring4() {
     new Blocks.Text("Gå i flokk som løver!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/fire.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
+
 
 
     Actions.Click(tilbake, () => {
@@ -212,6 +219,8 @@ function utfordring5() {
     bakgrunnsbilde();
     new Blocks.Text("Klarer du å ta 5 lange steg? Dette er like langt som en løve hopper!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/løve.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/fem.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -227,6 +236,8 @@ function utfordring6() {
     new Blocks.Text("Strekk deg så langt du kan! Blir du like lang som en sjiraff!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/seks.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -240,6 +251,8 @@ function utfordring7() {
     bakgrunnsbilde();
     new Blocks.Text("Finn fem ting rundt deg som er høyere enn deg selv!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/syv.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -255,6 +268,8 @@ function utfordring8() {
     new Blocks.Text("Finn en venn og stå rygg mot rygg. Hvem er høyest?!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/åtte.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -268,6 +283,8 @@ function utfordring9() {
     bakgrunnsbilde();
     new Blocks.Text("Klarer du å strekke ut tunga like langt som en sjiraff?", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/sjiraff.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/ni.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -283,6 +300,8 @@ function utfordring10() {
     new Blocks.Text("Kryp som en slange over gulvet, uten å bruke hendene!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/ti.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -296,6 +315,8 @@ function utfordring11() {
     bakgrunnsbilde();
     new Blocks.Text("Lag samme lyd som slangen mens du står på et bein!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/elleve.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -311,6 +332,8 @@ function utfordring12() {
     new Blocks.Text("Finn tre ting som rimer på slange!", { style: "overskrift2", x: 440, y: 300, width: 300, height: 200 });
     const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/tolv.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -324,6 +347,8 @@ function utfordring13() {
     bakgrunnsbilde();
     new Blocks.Text("Fullfør setningen: Det var en gang en slange som...", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/tretten.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -339,6 +364,8 @@ function utfordring14() {
     new Blocks.Text("Kan du nevne tre ting en slange kan spise?", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/slange.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/fjorten.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -352,6 +379,8 @@ function utfordring15() {
     bakgrunnsbilde();
     new Blocks.Text("Galloper som en sebra med armer og bein!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/sebra.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/femten.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -367,6 +396,8 @@ function utfordring16() {
     new Blocks.Text("Kommer du på noen andre dyr som også er stripete som sebraen?", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/sebra.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/seksten.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -380,6 +411,8 @@ function utfordring17() {
     bakgrunnsbilde();
     new Blocks.Text("Rop sebra når du ser noen i rommet som har svart eller hvit på seg!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/sebra.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/sytten.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
@@ -395,6 +428,8 @@ function utfordring18() {
     new Blocks.Text("Gå som en pingvin rundt i rommet!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/pingvin.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/atten.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -409,6 +444,8 @@ function utfordring19() {
     new Blocks.Text("Dans slik du tror en pingvin ville danset!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/pingvin.png", { x: 477, y: 100, width: 125, height: 150 });
 
+    const lyd = new Blocks.Sound("lyder/nitten.m4a", {loop:false,auto:true});
+
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
 
@@ -422,6 +459,8 @@ function utfordring20() {
     bakgrunnsbilde();
     new Blocks.Text("Pingvinen er sulten hopp ned fra benken for å fange fisk!", { style: "overskrift2", x: 440, y: 300, width: 200, height: 200 });
     const img1 = new Blocks.Image("bilder/pingvin.png", { x: 477, y: 100, width: 125, height: 150 });
+
+    const lyd = new Blocks.Sound("lyder/tjue.m4a", {loop:false,auto:true});
 
     const tilbake = new Blocks.Image("bilder/tilbake.png", { x: 465, y: 600, width: 150, height: 110 });
 
